@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.pagination__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 77, 221);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 3px solid rgb(77, 77, 221);
+}
+
+.pagination__button:disabled {
+    border: 3px solid black;
+    cursor: auto;
+}
+
+.post__title {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
